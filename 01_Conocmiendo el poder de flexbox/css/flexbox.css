@@ -6,3 +6,14 @@
     top:0;
 }
 
+.cabecera__buscar__item{                /*no muestra la barra de busqueda*/
+    display: none;
+}
+
+@media (min-width:834px) {              /*Condicional*/
+
+    .cabecera__buscar__item{
+        display: block;
+    }
+
+}
