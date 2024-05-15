@@ -17,3 +17,9 @@
     }
 
 }
+
+.rodapie__container{
+    display: flex;      /*Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas*/
+    flex-direction: column; /*Hace que todo este en una sola columna es decir pareciera que no se modifico nada*/
+
+}
