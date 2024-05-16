@@ -18,7 +18,7 @@
 </ol>
 
 <h2>{Seccion 2} Rodapie responsivo</h2>
-
+<h3>Po el momemnto solo se ha apatado el código para que el rodapie o footer se adapte al tipo de pantalla mostrando solo el contenido en columna o columnas según sea el diseño deseado en figma, el objetivo es tener una distribucion más uniforme y sea una mejora legible al usuario</h3>
 <h2>{Seccion 3} Menu lateral Mobile-First</h2>
 <h2>{Seccion 4} Menu flexible</h2>
 <h2>{Seccion 5} Videos flex-grow</h2>
