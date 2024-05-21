@@ -1,22 +1,46 @@
 /*Cabecera*/
     .cabecera__container{
-        display: flex;
-        justify-content: space-between;
+        display: flex;                      /*Se adapta el contenido a los pixeles de pantalla*/
+        justify-content: space-between;     /*Adapta automaticamente el espaciado de las dimenciones de la pantalla*/
         align-items: center;
         position: fixed;
         top:0;
     }
 
-    .cabecera__buscar__item{                /*no muestra la barra de busqueda*/
-        display: none;
+    .cabecera__buscar__item{                
+        display: none;                  /*no muestra la barra de busqueda*/
+    }
+/*MENU*/
+    .menu__container{
+        position: fixed;                /*Se adapta a la resolucion de la pantalla*/
+        bottom: 0%;                     /*Baja a la posicion baja*/
+        height: 75px;                   /*Se modifica el tamaño del menu*/
+        width: 100%;                    /*De asigana a que abarque todo el tamaño de la pantalal en dado que width es ancho*/
     }
 
-/*Rodapie*/
-    .rodapie__container{
-        display: flex;       /*    Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas
-        flex-direction: column;    Hace que todo este en una sola columna es decir pareciera que no se modifico nada 
-        flex-wrap: wrap;                */         
-        flex-flow: column wrap;   /*Esta linea permite hacer lo que hacen las dos anteriores    */
+    .menu__lista{
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .menu__lista li{        /*Lo que cambia esta clase con la otra es que en esta se es mas espeficico de a que parametro se quiere cambiar*/
+        align-self: center /*Propiedad especifica con los elementos hijos*/
+    }
+
+    .menu__itens{
+        display: flex;/*Se adapta a la resolucion*/
+        flex-direction: column; /*Alinea por columnas*/
+        gap: 5px;           /*da espacia de un elemento con otro ; parecido al interlineado*/
+        
+    }
+/*en esta pequeña seccion esta seleccionando las otras listas que tienen el mismo padres pero para evitar que se tenga 
+un problema en el visual se estan desactivando en este caso en especifico; cada numero representa los hijos que tiene 
+esta lista padre*/
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
+        display: none;
     }
 
 /*Seccion superior*/
@@ -28,6 +52,13 @@
         gap: 15px               /*Agrega espaciamento en cada texto del menu superior*/
     }
 
+/*Rodapie*/
+.rodapie__container{
+    display: flex;       /*    Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas
+    flex-direction: column;    Hace que todo este en una sola columna es decir pareciera que no se modifico nada 
+    flex-wrap: wrap;                */         
+    flex-flow: column wrap;   /*Esta linea permite hacer lo que hacen las dos anteriores    */
+}
 
 @media (min-width:834px) {              /*Condicional*/
 /*Cabecera*/

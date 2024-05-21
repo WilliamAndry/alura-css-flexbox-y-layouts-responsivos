@@ -17,9 +17,11 @@
 </ol>
 
 <h2>{Seccion 2} Rodapie responsivo</h2>
-    <h3>Por el momemnto solo se ha apatado el código para que el rodapie o footer se adapte al tipo de pantalla mostrando solo el contenido en columna o columnas según sea el diseño deseado en figma, el objetivo es tener una distribucion más uniforme y sea una mejora legible al usuario</h3>
-    <h3>Se anexo el espaciamiento entre el menu superior y a su vez una barra de deslizamiento en la cual podemos observar todos los titulos disponibles<h3>
+    <p>Por el momemnto solo se ha apatado el código para que el rodapie o footer se adapte al tipo de pantalla mostrando solo el contenido en columna o columnas según sea el diseño deseado en figma, el objetivo es tener una distribucion más uniforme y sea una mejora legible al usuario</p>
+    <p>Se anexo el espaciamiento entre el menu superior y a su vez una barra de deslizamiento en la cual podemos observar todos los titulos disponibles<p>
 
 <h2>{Seccion 3} Menu lateral Mobile-First</h2>
+    <p>El menú se ha fijado del lado correspondiente en telefonos ocupando toda la barra den lo ancho, se ha dado dimensiones de espaciamiento, ocultado las tablas hijas que no se desean ver visualmente y posicionando los textos por debajo de los iconos</p>
+
 <h2>{Seccion 4} Menu flexible</h2>
 <h2>{Seccion 5} Videos flex-grow</h2>
