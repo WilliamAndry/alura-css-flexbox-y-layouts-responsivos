@@ -69,4 +69,43 @@ esta lista padre*/
     .rodapie__container{
         justify-content: space-between;
     }
+/*Menu lateral*/
+    .menu__container{
+        left: 0;             
+        height: auto;                   
+        width: 74px;                    
+        top: 80px;
+    }
+    .menu__lista{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 15px;
+        gap: 33px;
+    }
+}
+
+@media(min-width:1440px){
+
+    .menu__container{
+        width: 239px;
+        overflow: scroll;
+    }
+    .menu__lista:nth-child(2),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4){
+        display: flex;
+    }
+    .menu__lista{
+        height: auto;                       /*Se adapta automaticamente al tamalño de elementos que se tiene*/
+        padding: 20px 17px 20px 15px;       /*Espaciamiento de cada menu lista empezando por la parte superior, lado derecho, parte baja y parte de la izquierda*/
+        gap: 15px;                          /*En este caso redujo el espacio para que se tenga un parecido mas apregado al figma*/
+    }
+
+    .menu__itens{
+        flex-direction: row;                /*Hace que los elementos de coloquen uno a lado del otro*/
+        gap: 15px;                          /*Como hacen que queden uno a lado del otro con la linea anterior este da un espacio entre ambos*/
+        align-items: center;                /*Como flex-direction no es perfecto hace que el texto quede ligeramente arriba y para corregir eso y quede bien 
+                                              centrado usamos esta linea que los coloca perfectamente bien al centro*/
+
+    }
 }

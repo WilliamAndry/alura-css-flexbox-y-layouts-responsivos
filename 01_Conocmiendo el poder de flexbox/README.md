@@ -24,4 +24,9 @@
     <p>El menú se ha fijado del lado correspondiente en telefonos ocupando toda la barra den lo ancho, se ha dado dimensiones de espaciamiento, ocultado las tablas hijas que no se desean ver visualmente y posicionando los textos por debajo de los iconos</p>
 
 <h2>{Seccion 4} Menu flexible</h2>
+<p>En la primera clase se adapto el menu para escritorios haciendo que el menu lateral se haga mas estrecho y aplicando un cambio para que las otras listas hijas que previamente desactivamos para dispositivos mobiles y tablets ahora aparezcan , respetando un espaciado entre cada uno y tambien limitando cuando se pasa el raton a que no pinte toda la caja solo la parte que se esta seleccionando del icono es  decir que no exceda para ocupar todo el ancho de cada parte de item</p>
+
+<p>En la segunda clase se adapta el menu para mostrar el icono y el texto en horizontal y de dan detalles de espacio y alineacion de texto</p>
+
+
 <h2>{Seccion 5} Videos flex-grow</h2>
