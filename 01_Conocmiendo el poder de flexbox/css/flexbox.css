@@ -1,23 +1,32 @@
 /*Cabecera*/
-.cabecera__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top:0;
-}
+    .cabecera__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top:0;
+    }
 
-.cabecera__buscar__item{                /*no muestra la barra de busqueda*/
-    display: none;
-}
+    .cabecera__buscar__item{                /*no muestra la barra de busqueda*/
+        display: none;
+    }
 
 /*Rodapie*/
-.rodapie__container{
-    display: flex;       /*    Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas
-    flex-direction: column;    Hace que todo este en una sola columna es decir pareciera que no se modifico nada 
-    flex-wrap: wrap;                */         
-    flex-flow: column wrap;   /*Esta linea permite hacer lo que hacen las dos anteriores    */
-}
+    .rodapie__container{
+        display: flex;       /*    Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas
+        flex-direction: column;    Hace que todo este en una sola columna es decir pareciera que no se modifico nada 
+        flex-wrap: wrap;                */         
+        flex-flow: column wrap;   /*Esta linea permite hacer lo que hacen las dos anteriores    */
+    }
+
+/*Seccion superior*/
+    .superior__seccion__container{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;    /*Hace que los tectos largos no se partan en dos*/
+        overflow: scroll;       /*Agrega barra de deslizamiento en la secciones del menu*/
+        gap: 15px               /*Agrega espaciamento en cada texto del menu superior*/
+    }
 
 
 @media (min-width:834px) {              /*Condicional*/
