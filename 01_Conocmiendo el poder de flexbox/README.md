@@ -28,5 +28,8 @@
 
 <p>En la segunda clase se adapta el menu para mostrar el icono y el texto en horizontal y de dan detalles de espacio y alineacion de texto</p>
 
+![Captura de pantalla 2024-05-21 132843](https://github.com/WilliamAndry/alura-css-flexbox-y-layouts-responsivos/assets/164076206/00a519bf-4c49-441e-8e3a-80c9dc2db9c9)
+
+<p>Es fundamental no olvidar estas reglas de la imagen que se muestra dado que puede exitir confuciones</p>p
 
 <h2>{Seccion 5} Videos flex-grow</h2>
