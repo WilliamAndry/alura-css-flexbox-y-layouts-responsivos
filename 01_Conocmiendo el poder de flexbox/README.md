@@ -39,3 +39,10 @@ En la tercer clase se hicieron pequeños detalles minimos pero muy importantes q
 
 
 <h2>{Seccion 5} Videos flex-grow</h2>
+<p>video 1:Se modifica el largo y ancho de los videos para que se corrija el error de que ocupan el 100% del ancho y no se aprecian en cuadricula
+hasta el momento solo se han dado propiedades para que aparezca uno abajo del otro
+
+UN DADO INRRELEVANTE PERO CABE MENCIONAR ES QUE LOS VIDEO NO SE VEIAN PREVIAMENTE DADO QUE VENIAN EN LINEA COMENTADAS
+</p>
+<p>Se adapto la descripcion de cada video el espaciamiento dentre ellos y que se mostrara en forma de mosaico</p>
+<p></p>

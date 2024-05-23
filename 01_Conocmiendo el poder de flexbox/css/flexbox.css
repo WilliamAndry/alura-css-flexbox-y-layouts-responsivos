@@ -52,6 +52,18 @@ esta lista padre*/
         gap: 15px               /*Agrega espaciamento en cada texto del menu superior*/
     }
 
+    /*Seccion videos*/
+    .videos__item{
+        height: 303px;
+        width: 280px;
+        flex-grow: 1;       /*Como sobraba un espacia del lateral derecho, y este no viene en el diseño figma se uso esta linea la cual lo desaparece amplando los videos(el tamaño de la imagen previa)*/
+    }
+
+    .videos__container{
+        display: flex;
+        flex-wrap: wrap;        /*Hace que los viodeo se distribujan en todo el contenedor*/
+        gap:10px;               /*Da un espaciado entre cada video para que no esten pegados*/
+    }
 /*Rodapie*/
 .rodapie__container{
     display: flex;       /*    Adaptacion de pantalla en automatico se nota el  cambio en el footer queda a 7 columnas
@@ -60,6 +72,32 @@ esta lista padre*/
    
     flex-flow: column wrap;   /*Esta linea permite hacer lo que hacen las dos anteriores    */
 }
+
+ /* DESAFIO DESCRIPCIÓN DE LOS VIDEOS */ 
+
+.descripcion-video {
+    margin-top: 1rem;
+    display: flex;
+    align-items: start; 
+    
+}
+
+.descripcion-video img {
+    margin-right: 1rem; 
+    flex-shrink: 0;  /*  Evita que la imagen se reduzca */
+    
+}
+
+.detalles__video {
+    flex-direction: column;
+    text-align:left;
+
+}
+
+.detalles__video h3{
+    margin-bottom: 10px;
+}
+
 
 @media (min-width:834px) {              /*Condicional*/
 /*Cabecera*/
